@@ -28,6 +28,7 @@ library
       BubbleSort
       InsertionSort
       Lib
+      SelectionSort
   other-modules:
       Paths_sorting_algo_func_hs
   hs-source-dirs:
