@@ -9,9 +9,9 @@ bubbleSort xs = go (length xs) xs
     go n ys = go (n - 1) $ bubble ys
     bubble [] = []
     bubble [x] = [x]
-    bubble (x:y:xs)
-      | x > y = y : bubble (x:xs)
-      | otherwise = x : bubble (y:xs)
+    bubble (x:y:xs')
+      | x > y = y : bubble (x:xs')
+      | otherwise = x : bubble (y:xs')
 
 main :: IO ()
 main = do
