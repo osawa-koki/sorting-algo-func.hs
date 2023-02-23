@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      BubbleSort
       Lib
   other-modules:
       Paths_sorting_algo_func_hs
