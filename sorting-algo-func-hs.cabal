@@ -29,6 +29,7 @@ library
       InsertionSort
       Lib
       MergeSort
+      QuickSort
       SelectionSort
   other-modules:
       Paths_sorting_algo_func_hs

@@ -5,6 +5,7 @@ import BubbleSort
 import InsertionSort
 import SelectionSort
 import MergeSort
+import QuickSort
 
 main :: IO ()
 main = do
@@ -18,3 +19,5 @@ main = do
     putStrLn $ display "Selection Sort" $ selectionSort arr
     putStrLn $ display "Original" arr
     putStrLn $ display "Merge Sort" $ mergeSort arr
+    putStrLn $ display "Original" arr
+    putStrLn $ display "Quick Sort" $ quickSort arr
