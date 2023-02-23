@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       BubbleSort
+      InsertionSort
       Lib
   other-modules:
       Paths_sorting_algo_func_hs

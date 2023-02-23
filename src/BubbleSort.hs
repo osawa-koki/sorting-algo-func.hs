@@ -2,8 +2,6 @@ module BubbleSort
     ( bubbleSort
     ) where
 
-import Data.List (sort)
-
 bubbleSort :: Ord a => [a] -> [a]
 bubbleSort xs = go (length xs) xs
     where

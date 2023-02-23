@@ -2,6 +2,7 @@ module Main (main) where
 
 import Lib
 import BubbleSort
+import InsertionSort
 
 main :: IO ()
 main = do
@@ -9,3 +10,5 @@ main = do
 
     putStrLn $ display "Original" arr
     putStrLn $ display "Bubble Sort" $ bubbleSort arr
+    putStrLn $ display "Original" arr
+    putStrLn $ display "Insertion Sort" $ insertionSort arr
